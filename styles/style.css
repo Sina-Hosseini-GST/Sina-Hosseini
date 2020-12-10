@@ -1,0 +1,503 @@
+/*--All--*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-rendering: optimizelegibility;
+    overflow-wrap: break-word;
+}
+
+blockquote,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ol,
+p,
+pre,
+td,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-blue {
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+.bg-dark-purple {
+    background: linear-gradient(90deg, #B8285A 0%, #90298B 100%);
+    background-image: linear-gradient(90deg, #B8285A 0%, #90298B 100%);
+}
+
+.color-blue {
+    color: #1a73e8;
+}
+
+.color-pink {
+    color: #B8285A;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+}
+
+.fill-pink {
+    fill: #B8285A;
+}
+
+.color-dark-purple {
+    color: #2C0776;
+}
+
+.btn {
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    height: 53.2px;
+    line-height: 19.2px;
+    margin-bottom: 36px;
+    margin-top: 36px;
+    min-height: 46px;
+    padding: 17px 24px;
+    white-space: normal;
+    box-sizing: border-box;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.icon svg {
+    font-size: 20px;
+    font-weight: 500;
+    height: 26px;
+    width: 26px;
+    line-height: 22px;
+    position: relative;
+    top: 2.5px;
+    margin: 0 0px;
+}
+
+.small {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19.5px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 1.179;
+    margin-bottom: 22px;
+}
+
+P {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    overflow-wrap: break-word;
+}
+
+p span {
+    font-size: 18px;
+}
+
+h2 {
+    color: #25272b;
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 52px;
+    margin-bottom: 22px;
+    overflow-wrap: normal;
+}
+
+h3 {
+    color: #25272b;
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 52px;
+    overflow-wrap: normal;
+    margin-bottom: 122px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.color-white {
+    color: white;
+}
+
+.fill-white {
+    fill: white;
+}
+
+.flex-and-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bold700 {
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+@media (min-width: 0px) and (max-width: 599px) {}
+
+@media (min-width: 600px) and (max-width: 1023px) {}
+
+@media (min-width: 1024px) {}
+
+
+/*--Nav--*/
+
+nav {
+    background-color: white;
+    box-shadow: 0px 5px 15px 5px #00000073;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 64px;
+    top: 0;
+    display: flex;
+}
+
+#nav-logo {
+    font-weight: bold;
+    color: #424242;
+    font-size: 24px;
+    line-height: 28.18px;
+    margin: 18.5px 24px;
+}
+
+#nav-logo a {
+    color: #424242;
+}
+
+ul {
+    display: flex;
+    margin-top: 23.5px;
+    list-style: none;
+}
+
+li a {
+    color: #5f6368;
+    padding: 0 20px;
+}
+
+li a:hover {
+    color: #000;
+}
+
+a:focus {
+    color: #000;
+    border-bottom: 3px solid #1a73e8;
+    padding-bottom: 20px;
+}
+
+.nav-right {
+    position: absolute;
+    right: 0;
+}
+
+.nav-start-btn {
+    margin-right: 24px;
+    padding: 17px 24px;
+    border-radius: 2px;
+}
+
+
+/*--Main--*/
+
+main {
+    margin-top: 64px;
+}
+
+
+/*--Main, Section 1--*/
+
+main section:nth-child(1) {
+    background-color: black;
+    width: 100%;
+    height: 880px;
+    display: flex;
+    justify-content: center;
+    background-image: url('/images/wheel.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+/*--Main, Section 1, Div 1--*/
+
+main section:nth-child(1)>div:nth-child(1) {
+    position: absolute;
+    width: 100%;
+    height: 880px;
+    background: linear-gradient(32.94deg, #2c0776b3 0%, #91298bb3 100%);
+}
+
+
+/*--Main, Section 1, Div 2--*/
+
+main section:nth-child(1)>div:nth-child(2) {
+    width: 410px;
+    height: 523px;
+    margin-right: 135px;
+    margin-top: 119.5px;
+    z-index: 1;
+}
+
+
+/*--Main, Section 1, Div 3--*/
+
+main section:nth-child(1)>div:nth-child(3) {
+    width: 410px;
+    height: 2187px;
+    margin-top: 64px;
+    z-index: 2;
+}
+
+#cellphone-display {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1px;
+    margin-left: 12.5px;
+    padding-top: 98px;
+    margin-top: -140px;
+    margin-bottom: -34px;
+}
+
+#phone-container {
+    position: absolute;
+    margin-top: -645px;
+    width: 278px;
+    height: 570px;
+    margin-left: 53px;
+}
+
+#phone-title {
+    text-align: center;
+    font-size: 28px;
+    margin: 45px 0 20px 0;
+}
+
+#phone-text {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#search {
+    background-color: white;
+    width: 410px;
+    height: 66px;
+    margin-left: -66px;
+    box-shadow: #0000000d 1px 2px 10px 0px;
+    border-radius: 4px;
+}
+
+#search p {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+#result {
+    background-color: white;
+    width: 410px;
+    height: 155px;
+    margin-left: -66px;
+    box-shadow: #0000000d 1px 2px 10px 0px;
+    border-radius: 4px;
+}
+
+#phone-logo {
+    text-align: center;
+    font-weight: bold;
+    color: #424242;
+    font-size: 24px;
+    line-height: 28.18px;
+    margin-top: 45px;
+}
+
+.typed-text {
+    margin-left: 32px;
+    color: #3c4043;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.typed-text::after {
+    content: " ";
+}
+
+
+/*--Main, Section 2--*/
+
+main section:nth-child(2) {
+    background-color: #023E46;
+    width: 100%;
+    height: 665px;
+}
+
+main section:nth-child(2) div {
+    background-image: url('/images/engager.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 665px;
+}
+
+
+/*--Main, Section 3--*/
+
+main section:nth-child(3) {
+    height: 815px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    background-image: url('/images/biosphere.webp');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+main section:nth-child(3) div:nth-child(1) {
+    position: absolute;
+    width: 100%;
+    height: 815px;
+    background: linear-gradient(32.94deg, #2c0776b3 0%, #91298bb3 100%);
+}
+
+main section:nth-child(3) div:nth-child(2) {
+    width: 410px;
+    height: 523px;
+    margin-right: 135px;
+    margin-top: 119.5px;
+    z-index: 2;
+}
+
+main section:nth-child(3) div:nth-child(3) {
+    width: 410px;
+    height: 642px;
+    margin-top: 60px;
+}
+
+main section:nth-child(3) a {
+    color: rgb(25, 103, 210);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.1px;
+    margin-top: 36px;
+}
+
+
+/*--Main, Section 4--*/
+
+main section:nth-child(4) {
+    background-color: yellow;
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+}
+
+#section-container {
+    background-color: tomato;
+    width: 1300px;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+#section-container-inside {
+    width: 100%;
+    background-color: palegreen;
+    height: 728px;
+    justify-content: space-between;
+}
+
+#section-container-inside div:nth-child(1) {
+    background-color: palevioletred;
+    height: 277px;
+    width: 245px;
+}
+
+#section-container-inside div:nth-child(2) {
+    background-color: paleturquoise;
+    height: 277px;
+    width: 245px;
+}
+
+#section-container-inside div:nth-child(3) {
+    background-color: plum;
+    height: 277px;
+    width: 245px;
+}
+
+
+/*--Main, Section 5--*/
+
+main section:nth-child(5) {
+    background-color: paleturquoise;
+    width: 100%;
+    height: 510px;
+}
+
+
+/*--Main, Section 6--*/
+
+main section:nth-child(6) {
+    background-color: olivedrab;
+    width: 100%;
+    height: 560px;
+}
+
+
+/*--Main, Section 7--*/
+
+main section:nth-child(7) {
+    background-color: deeppink;
+    width: 100%;
+    height: 930px;
+}
+
+
+/*--Main, Section 8--*/
+
+main section:nth-child(8) {
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 830px;
+}
+
+
+/*--Main, Section 9--*/
+
+main section:nth-child(9) {
+    background-color: salmon;
+    width: 100%;
+    height: 685px;
+}
